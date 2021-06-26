@@ -1,0 +1,14 @@
+.button {
+  width: 68%;
+  display: flex;
+  min-width: 300px;
+  justify-content: center;
+  & > button {
+    width: 100%;
+    cursor: pointer;
+    font-family: inherit;
+    padding: 1rem;
+    border: none;
+    background-color: var(--color-primary);
+  }
+}

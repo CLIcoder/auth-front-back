@@ -1,0 +1,20 @@
+.confirm {
+  display: flex;
+  width: 70%;
+  padding: 20px;
+  align-items: center;
+  & > p {
+    margin-left: 30px;
+    font-size: 1.5rem;
+  }
+  &_error {
+    outline: 1px solid red;
+    &_p {
+      color: red;
+    }
+  }
+  & > span {
+    color: red;
+    font-size: 1.4rem;
+  }
+}
